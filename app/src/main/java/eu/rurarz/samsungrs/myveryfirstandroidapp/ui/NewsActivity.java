@@ -4,7 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import com.actionbarsherlock.R;
+import eu.rurarz.samsungrs.myveryfirstandroidapp.R;
 import com.actionbarsherlock.view.MenuItem;
 import eu.rurarz.samsungrs.myveryfirstandroidapp.BootstrapServiceProvider;
 import eu.rurarz.samsungrs.myveryfirstandroidapp.core.News;
