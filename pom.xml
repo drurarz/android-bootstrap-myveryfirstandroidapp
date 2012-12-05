@@ -5,13 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <version>1.0</version>
-    <groupId>com.donnfelker.android.bootstrap</groupId>
-    <artifactId>android-bootstrap-parent</artifactId>
-    <name>Android Bootstrap parent</name>
+    <groupId>eu.rurarz.samsungrs.myveryfirstandroidapp</groupId>
+    <artifactId>eu-rurarz-samsungrs-myveryfirstandroidapp-parent</artifactId>
+    <name>MyVeryFirstAndroidApp parent</name>
     <packaging>pom</packaging>
 
     <issueManagement>
-        <url>https://github.com/donnfelker/android-bootstrap/issues</url>
+        <url>https://github.eu.rurarz.samsungrs.myveryfirstandroidapp/issues</url>
         <system>GitHub Issues</system>
     </issueManagement>
 
@@ -24,9 +24,9 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/donnfelker/android-bootstrap</url>
-        <connection>scm:git:git://github.com/donnfelker/android-bootstrap.git</connection>
-        <developerConnection>scm:git:git@github.com:donnfelker/android-bootstrap.git</developerConnection>
+        <url>https://github.eu.rurarz.samsungrs.myveryfirstandroidapp</url>
+        <connection>scm:git:git://github.eu.rurarz.samsungrs.myveryfirstandroidapp.git</connection>
+        <developerConnection>scm:git:git@github.eu.rurarz.samsungrs.myveryfirstandroidapp.git</developerConnection>
     </scm>
 
     <developers>
@@ -53,7 +53,7 @@
                 <plugin>
                     <groupId>com.jayway.maven.plugins.android.generation2</groupId>
                     <artifactId>android-maven-plugin</artifactId>
-                    <version>3.4.0</version>
+                    <version>3.3.0</version>
                     <extensions>true</extensions>
                     <configuration>
                         <sdk>

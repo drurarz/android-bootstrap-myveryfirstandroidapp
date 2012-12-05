@@ -1,14 +1,14 @@
-# Android Bootstrap App
+# MyVeryFirstAndroidApp App
 
-This repository contains the source code for the [Android Bootstrap](http://www.androidbootstrap.com/)
-Android app available from [Google Play](https://play.google.com/store/apps/details?id=com.donnfelker.android.bootstrap).
+This repository contains the source code for the [MyVeryFirstAndroidApp](http://www.androidbootstrap.com/)
+Android app available soon from [Google Play](https://play.google.com/store/apps/details?id=eu.rurarz.samsungrs.myveryfirstandroidapp).
 
-Please see the [issues](https://github.com/donnfelker/android-bootstrap/issues) section
+
+
+Please see the [issues](https://github.eu.rurarz.samsungrs.myveryfirstandroidapp/issues) section
 to report any bugs or feature requests and to see the list of known issues.
 
-Have a questions about Android Bootstrap? Ask away on the [android-bootstrap discussion forum](https://groups.google.com/forum/#!forum/android-bootstrap). 
-
-<a href="https://play.google.com/store/apps/details?id=com.donnfelker.android.bootstrap" alt="Download from Google Play">
+<a href="https://play.google.com/store/apps/details?id=eu.rurarz.samsungrs.myveryfirstandroidapp" alt="Download from Google Play (soon)">
   <img src="http://f.cl.ly/items/000s3k2I2J1V281X2A1f/bootstrap-image.png">
 </a>
 
@@ -18,30 +18,6 @@ Log into this demo app with the following credentials:
 user: demo@androidbootstrap.com
 
 password: android
-
-
-## Generating your Bootstrap App
-Why generate? Simple ... renaming files, folders, copy and pasting is SUPER error prone and well... it sucks overall. This can easily take a few days with debugging if you run into issues and perform a lot of typo's. Using the generator on [AndroidBootstrap.com](http://www.androidbootstrap.com) you can generate your application with your application name as well as the package (and folder structure) that you want to work with. 
-
-As an example, you know that you want your app name and package to the following: 
-
-  - *App Name*: Notify
-  - *Package Name*: com.notify.app.mobile
-
-After generating the app on [AndroidBootstrap.com](http://www.androidbootstrap.com) the folder structure of the source code for the app will change:
-
-  - From: __com/donnfelker/android/bootstrap__ 
-  - To: __com/notify/app/mobile__
-
-At that point all the source files that were located in ____com/donnfelker/android/bootstrap__ will be moved to the new folder __com/notify/app/mobile__. 
-
-All import statments that reference the old resources (__R.com.donnfelker.android.bootstrap.R__) will now be renamed to the correct package. The artifact id's in the *pom.xml* (and various other places) will be replaced. The App Name will be replaced in the strings/etc. 
-
-The end result is that you will be given a zip file with the correct structure. Open the zip and then execute *mvn clean package* and your app should be ready for development. 
-
-Enjoy!
-
-The application 
 
 ## License
 
@@ -85,17 +61,17 @@ After satisfying those requirements, the build is pretty simple:
 You might find that your device doesn't let you install your build if you
 already have the version from the Android Market installed.  This is standard
 Android security as it it won't let you directly replace an app that's been
-signed with a different key.  Manually uninstall Android Bootstrap from your device and
+signed with a different key.  Manually uninstall MyVeryFirstAndroidApp from your device and
 you will then be able to install your own built version.
 
 ## Acknowledgements
 
-Android Bootstrap is a result of a template project I've developed over the years as well as
+MyVeryFirstAndroidApp is a result of a template project I've developed over the years as well as
 a combination of a lot of great work that the [GitHub Gaug.es](http://www.github.com/github/gauges-android)
 app and [GitHub Android](http://www.github.com/github/android) app showcased. Some fo the
 code in this project is based on the GitHub Gaug.es and GitHub Android app.
 
-Android Bootstrap is built on the awesome [Parse.com API](http://www.parse.com/)
+MyVeryFirstAndroidApp is built on the awesome [Parse.com API](http://www.parse.com/)
 and uses many great open-source libraries from the Android dev community:
 
 * [ActionBarSherlock](https://github.com/JakeWharton/ActionBarSherlock) for a
@@ -118,7 +94,7 @@ and uses many great open-source libraries from the Android dev community:
 ## Contributing
 
 Please fork this repository and contribute back using
-[pull requests](https://github.com/donnfelker/android-bootstrap/pulls).
+[pull requests](https://github.eu.rurarz.samsungrs.myveryfirstandroidapp/pulls).
 
 Any contributions, large or small, major features, bug fixes, additional
 language translations, unit/integration tests are welcomed and appreciated

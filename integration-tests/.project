@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>com.donnfelker.android.bootstrap.tests</name>
+	<name>eu.rurarz.samsungrs.myveryfirstandroidapp.tests</name>
 	<comment></comment>
 	<projects>
-		<project>com.donnfelker.android.bootstrap</project>
+		<project>eu.rurarz.samsungrs.myveryfirstandroidapp</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
